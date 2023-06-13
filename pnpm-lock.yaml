@@ -19,6 +19,9 @@ dependencies:
   inquirer:
     specifier: ^6.4.0
     version: registry.npmmirror.com/inquirer@6.5.2
+  ora:
+    specifier: ^4.0.0
+    version: registry.npmmirror.com/ora@4.0.0
   preferred-pm:
     specifier: ^3.0.3
     version: registry.npmmirror.com/preferred-pm@3.0.3
@@ -2309,6 +2312,15 @@ packages:
     version: 4.17.21
     dev: false
 
+  registry.npmmirror.com/log-symbols@3.0.0:
+    resolution: {integrity: sha512-dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/log-symbols/-/log-symbols-3.0.0.tgz}
+    name: log-symbols
+    version: 3.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      chalk: registry.npmmirror.com/chalk@2.4.2
+    dev: false
+
   registry.npmmirror.com/log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/log-symbols/-/log-symbols-4.1.0.tgz}
     name: log-symbols
@@ -3052,6 +3064,21 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mimic-fn: registry.npmmirror.com/mimic-fn@2.1.0
+    dev: false
+
+  registry.npmmirror.com/ora@4.0.0:
+    resolution: {integrity: sha512-2RaV0LWJgpWEjvpsW57H8pnzdVQJrtAr4VGk9cIqn58ePx5k1b0H3h9DS2Qj4cL1Cm012JSeg+7AcVNsis6AVQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ora/-/ora-4.0.0.tgz}
+    name: ora
+    version: 4.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      chalk: registry.npmmirror.com/chalk@2.4.2
+      cli-cursor: registry.npmmirror.com/cli-cursor@3.1.0
+      cli-spinners: registry.npmmirror.com/cli-spinners@2.9.0
+      is-interactive: registry.npmmirror.com/is-interactive@1.0.0
+      log-symbols: registry.npmmirror.com/log-symbols@3.0.0
+      strip-ansi: registry.npmmirror.com/strip-ansi@5.2.0
+      wcwidth: registry.npmmirror.com/wcwidth@1.0.1
     dev: false
 
   registry.npmmirror.com/ora@5.4.1:
